@@ -1,0 +1,53 @@
+.road-closure {
+  margin: 0 auto;
+}
+
+.road-closure ul {
+  list-style-type: disc;
+  padding-left: 0;
+}
+
+.road-closure h5 {
+  padding: 5px;
+}
+
+.alert-container {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  max-width: 600px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.alert-icon-red {
+  margin-right: 10px;
+  color: #EE1D52;
+  font-size: 1.2em;
+}
+
+.alert-icon {
+  margin-right: 10px;
+  color: #A39D9D;
+  font-size: 1em;
+  margin: 0;
+}
+
+.alert-text {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.alert-description {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.alert-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

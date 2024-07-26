@@ -1,0 +1,109 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 94vh;
+
+}
+
+
+.map-box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 0;
+}
+
+/* Container styles */
+.searchbox-container {
+  position: absolute;
+  left: 50;
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  border-radius: 5px;
+  gap: 5px;
+
+}
+
+/* Autocomplete input styles */
+.autocomplete-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(255, 255, 255, 1);
+  width: 100%;
+  border-radius: 3px;
+  padding: 0;
+}
+
+.autocomplete-input {
+  border: none;
+  background: none;
+  padding-left: 5px;
+  border-radius: 0;
+  margin: 0;
+
+}
+.first-input {
+  width: 100%;
+}
+
+
+/* Geo button styles */
+.geo-btn {
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  height: auto;
+  width: 15%;
+  background-color: #fff;
+  color: #0056b3;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Buttons container styles */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: none;
+
+}
+
+.route-btn,
+.clear-btn {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin: 0;
+}
+
+.route-btn:hover {
+  background-color: #218838;
+}
+
+.clear-btn {
+  background-color: #dc3545;
+  size: 200px;
+}
+
+.clear-btn:hover {
+  background-color: #c82333;
+}
+
+.distance-durattion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

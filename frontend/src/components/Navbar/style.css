@@ -1,0 +1,42 @@
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+  .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .email {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .login-link {
+    margin-left: auto;
+    text-decoration: none;
+    color: #2D2D2D;
+  }
+  
+  .login-button {
+    width: auto;
+    text-decoration: none;
+    color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #2D2D2D;
+    color: #fff;
+    text-decoration: none;
+  }
