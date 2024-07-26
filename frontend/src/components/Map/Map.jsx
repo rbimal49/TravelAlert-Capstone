@@ -20,7 +20,7 @@ const mapOptions = {
 };
 
 // Google Maps API Key (included directly)
-const googleMapsApiKey = "AIzaSyB-xZ2HM4lEWdTgcjzxEbtTm63ANRvuM8M";
+const googleMapsApiKey = "MyAPIc";
 
 const Map = () => {
   const [libraries] = useState(["places"]);
